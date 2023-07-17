@@ -1,0 +1,50 @@
+{
+    "introHeader": "Hello, I'm Fernando L. Maioli",
+    "introText": "I'm a Brazilian Software Engineer with a bachelor's degree from PUCRS, I've worked at multiple projects over the years, mainly on mobile, always enjoyed working on a team and often took the role of Scrum Master or Manager. I'm curious, enjoy learning new things and challenging myself, I speak Portuguese and English.",
+    "careerHeader": "Career",
+    "experiences": [
+        {
+            "date": "May 2019 - Present",
+            "name": "Graphi",
+            "link": "https://www.instagram.com/graphi_app/",
+            "description": "Graphi is a Startup that began inside Apple Developer Academy, with the idea of creating a tool for pediatricians to use in their appointments, the app does all the calculations and presents easy to understand graphics, helping the doctors in their work. After graduating from Apple course, Graphi joined the Bay Bridge project as part of TECNOPUC Startups to continue development. I worked as iOS developer and Scrum Master, using technologies such as Swift, SwiftUI, Firebase Analytics and Fastlane."
+        },
+        {
+            "date": "February 2021 - April 2022",
+            "name": "Nelogica",
+            "link": "https://www.nelogica.com.br/",
+            "description": "I worked on the development of Vector iOS, an app for analyzing and trading cryptocurrencies. I learned a lot while on the project as I had the chance to work on code maintenance, refactoring of old systems and development of new features. Among the technologies used on development were Swift, SwiftUI, Firebase Analytics and Jira."
+        },
+        {
+            "date": "February 2019 - December 2020",
+            "name": "Apple Developer Academy",
+            "link": "https://developeracademy.eldorado.org.br/poa/",
+            "description": "I was part of this scholarship/internship created by Apple, PUCRS and Instituto Eldorado. The project encourages the participants to develop apps and solutions through Apple technologies, using methodologies of UX Design and agile methods. As part of the program I developed a few apps, such as Graphi and Mindland."
+        },
+        {
+            "date": "October 2018 - February 2019",
+            "name": "LIS - HP",
+            "link": "https://www.politecnica.pucrs.br/laboratorios/lis/",
+            "description": "As an intern I worked on the development of an Artificial Intelligence capable of detecting and identifying text in images and videos. The AI was made with a Deep Neural Network and trained through Machine Learning, using Python and SKLearn."
+        }
+    ],
+    "projectsHeader": "Projects",
+    "projects": [
+        {
+            "name": "MindLand",
+            "date": "October 2019 - November 2020",
+            "description": "A project developed during my time at Apple Developer Academy, Mindland is an app made to teach the fundamentals of computational thinking to children using storytelling and gamification. The development was made in Swift, and I worked as a programmer, helped creating mini-games and was responsible for quality of code.",
+            "link": "https://apps.apple.com/us/app/mindland/id1484998648",
+            "image": "images/Mindland-showcase.png",
+            "linkHTML": "<img src='images/download-app-store.png' class='store-button' alt='App Store'>"
+        },
+        {
+            "name": "Radar do Investidor",
+            "date": "March 2021 - June 2021",
+            "description": "Radar do Investidor (Investor Radar) is a project that I worked on as part of the Final paper from my bachelor's degree at PUCRS. The idea was to create a website were investors could search, study and compare investment funds, the owner of the project was the investment company Warren. The front-end was developed in TypeScript with ReactJS and NextJS, the back-end worked as a API REST developed in TypeScript with NodeJS and the database used was PostgresSQL. In worked in this project as manager and full-stack developer.",
+            "link": "https://tools.ages.pucrs.br/radar-do-investidor/radardoinvestidor-wiki/-/wikis/home",
+            "image": "images/Radar-Investimento-showscase.png",
+            "linkHTML": "Wiki"
+        }
+    ]
+}

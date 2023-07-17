@@ -11,34 +11,36 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script type = "text/javascript" src="./assets/js/main.js"></script>
 	</head>
 	<body class="is-preload">
 		
 		<!-- Header -->
 			<section id="header">
-				<div class="inner">
-					<!-- <h1>Hi, I'm <strong>Photon</strong>, another fine<br />
-					little freebie from <a href="http://html5up.net">HTML5 UP</a>.</h1> -->
-					<h1>Olá, me chamo Fernando L. Maioli</h1>
-					<p class="intro-text">Sou um Engenheiro de Software graduado na PUCRS. Ao longo dos anos trabalhei em vários projetos, principalmente na área mobile, sempre gostei de trabalhar em equipe e várias vezes atuei como Scrum Master ou Gerente. Sou muito curioso, gosto de aprender coisas novas e me desafiar.</p>
-					<!--<ul class="actions special">
-						<li><a href="#one" class="button scrolly">Discover</a></li>
-					</ul>
-					-->
+			<div class="inner">
+				<div class="header-top">
+					<button ontouchstart="" class="button-lang" onclick="translateTexts('pt')">PT</button>
+					<div class="vl"></div>
+					<button ontouchstart="" class="button-lang" onclick="translateTexts('eng')">EN</button>
 				</div>
+				<div class="inner texts">
+					<h1 id="hello-header">Olá, me chamo Fernando L. Maioli</h1>
+					<p id="intro-text" class="intro-text">Sou um Engenheiro de Software graduado na PUCRS. Ao longo dos anos trabalhei em vários projetos, principalmente na área mobile, sempre gostei de trabalhar em equipe e várias vezes atuei como Scrum Master ou Gerente. Sou muito curioso, gosto de aprender coisas novas e me desafiar.</p>
+				</div>
+			</div>
 			</section>
 
 			<section class="section-title">
 				<div class="container">
 					<header class="major">
-						<h2>Carreira</h2>
+						<h2 id="career-header">Carreira</h2>
 					</header>
 				</div>
 			</section>
 
 			<section class="main style1">
 				<div class="wrapper"> 
-					<ul class="timeline">
+					<ul class="timeline" id="timeline">
 						<li>
 							<div class="panel">
 								<p class="experience-date">Maio 2019 - Presente</p>
@@ -96,13 +98,13 @@
 			<section class="section-title">
 				<div class="container">
 					<header class="major">
-						<h2>Projetos</h2>
+						<h2 id="projects-header">Projetos</h2>
 					</header>
 				</div>
 			</section>
 			<section id="three" class="main style1 special">
 				<div class="container">
-					<div class="row gtr-150">
+					<div id="projectsSection" class="row gtr-150">
 						<div class="col-6 col-12-medium">
 							<span class="image fit"><img src="images/Mindland-showcase.png" alt="" /></span>
 							<h3 class="subsection-title">MindLand</h3>

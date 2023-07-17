@@ -7,6 +7,54 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.header-top {
+	margin: -100px 10px 50px 0px;
+	position: relative;
+	display: flex;
+	justify-content: right;
+}
+
+.button-lang {
+	/*box-shadow: inset 0 0 0 1px #ffffff;*/
+	background: none;
+	color: #c9c9c9;
+	border: none;
+	padding: none;
+	text-align: center;
+	font-size: 25px;
+	margin: 0px 0px;
+	cursor: pointer;
+	position: relative;
+	display: grid;
+	justify-content: right;
+}
+
+.button-lang:hover {
+	color: white;
+	background: none;
+}
+
+.button-lang:active {
+	color: white;
+	background: none;
+}
+
+.button-lang.primary:hover {
+	color: white;
+}
+
+.button-lang.primary:active {
+	color: white;
+}
+
+.vl {
+	border-left: 2px solid white;
+	height: 25px;
+	margin: 3px 4px 0px 4px;
+	display: inline-block;
+	align-content: center;
+}
+
 .section-title {
 	font-size: 1.2em;
 	text-align: center;
@@ -916,6 +964,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 1140px) {
 
+			.header-top {
+				margin: -75px 10px 50px 0px;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1160,6 +1212,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
+
+			.header-top {
+				margin: -125px -40px 50px 0px;
+			}
 
 			.row {
 				display: flex;
@@ -1406,6 +1462,14 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+			.header-top {
+				margin: -75px -35px 50px 0px;
+			}
+
+			.vl {
+				margin: 25px 4px 0px 4px;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1651,6 +1715,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			.header-top {
+				margin: -75px -20px 50px 0px;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1895,6 +1963,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 320px) {
+
+			.header-top {
+				margin: -60px 0px 50px 0px;
+			}
 
 			.row {
 				display: flex;
@@ -2820,7 +2892,7 @@ input, select, textarea {
 				border-top: 0;
 			}
 
-/* Button */
+/* Button 
 
 	input[type="submit"],
 	input[type="reset"],
@@ -2948,7 +3020,7 @@ input, select, textarea {
 			cursor: default;
 			opacity: 0.25;
 		}
-
+*/
 /* Main */
 
 	.main {
@@ -3087,8 +3159,7 @@ input, select, textarea {
 		#header input[type="button"],
 		#header button,
 		#header .button {
-			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #ffffff !important;
+			box-shadow: inset 0 0 0 0px #ffffff;
 		}
 
 			#header input[type="submit"]:hover,
@@ -3096,7 +3167,7 @@ input, select, textarea {
 			#header input[type="button"]:hover,
 			#header button:hover,
 			#header .button:hover {
-				background-color: rgba(255, 255, 255, 0.125);
+				background-color: rgba(255, 255, 255, 0);
 			}
 
 			#header input[type="submit"]:active,
@@ -3104,7 +3175,7 @@ input, select, textarea {
 			#header input[type="button"]:active,
 			#header button:active,
 			#header .button:active {
-				background-color: rgba(255, 255, 255, 0.25);
+				background-color: rgba(255, 255, 255, 0);
 			}
 
 			#header input[type="submit"].primary,
@@ -3112,9 +3183,7 @@ input, select, textarea {
 			#header input[type="button"].primary,
 			#header button.primary,
 			#header .button.primary {
-				background-color: #ffffff;
-				box-shadow: inset 0 0 0 1px #ffffff !important;
-				color: #4686a0 !important;
+				box-shadow: inset 0 0 0 0px #ffffff !important;
 			}
 
 				#header input[type="submit"].primary:hover,
@@ -3122,8 +3191,7 @@ input, select, textarea {
 				#header input[type="button"].primary:hover,
 				#header button.primary:hover,
 				#header .button.primary:hover {
-					background-color: rgba(255, 255, 255, 0.125) !important;
-					color: #ffffff !important;
+					background-color: rgba(255, 255, 255, 0) !important;
 				}
 
 				#header input[type="submit"].primary:active,
@@ -3131,7 +3199,7 @@ input, select, textarea {
 				#header input[type="button"].primary:active,
 				#header button.primary:active,
 				#header .button.primary:active {
-					background-color: rgba(255, 255, 255, 0.25) !important;
+					background-color: rgba(255, 255, 255, 0) !important;
 				}
 
 		#header ul.major-icons li .icon {
@@ -3190,8 +3258,11 @@ input, select, textarea {
 			opacity: 1;
 			position: relative;
 			display: grid;
-			justify-content: center;
 			z-index: 1;
+		}
+
+		#header .inner .texts {
+			justify-content: center;
 		}
 
 			#header .inner .actions {
