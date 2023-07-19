@@ -45,8 +45,8 @@ function loadTexts(language) {
 
 			document.getElementById("career-header").textContent = data.careerHeader
 			var timelineString = ""
-			for (index in data.experiences) {
-				var experience = data.experiences[index]
+			for (index in data.careerExperiences) {
+				var experience = data.careerExperiences[index]
 				timelineString += `
 				<li>
 					<div class="panel">
@@ -61,7 +61,24 @@ function loadTexts(language) {
 					</div>
 				</li>`
 			}
-			document.getElementById("timeline").innerHTML = timelineString
+			document.getElementById("career-timeline").innerHTML = timelineString
+
+			document.getElementById("education-header").textContent = data.educationHeader
+			timelineString = ""
+			for (index in data.educationExperiences) {
+				var experience = data.educationExperiences[index]
+				timelineString += `
+				<li>
+					<div class="panel">
+						<p class="experience-date">${experience.date}</p>
+						<div class="experience-content">
+							<h3 class="subsection-title">${experience.name}</h3>
+							<p>${experience.description}</p>
+						</div>
+					</div>
+				</li>`
+			}
+			document.getElementById("education-timeline").innerHTML = timelineString
 
 			document.getElementById("projects-header").textContent = data.projectsHeader
 			var projectsString = ""
@@ -71,7 +88,7 @@ function loadTexts(language) {
 					<div class="col-6 col-12-medium">
 						<span class="image fit"><img src="${project.image}" alt="" /></span>
 						<h3 class="subsection-title">${project.name}</h3>
-						<p><strong>${project.date}</strong></p>
+						<p class="project-date">${project.date}</p>
 						<p>${project.description}</p>
 						<a href="${project.link}" target="_blank" class="store-button">
 							${project.linkHTML}

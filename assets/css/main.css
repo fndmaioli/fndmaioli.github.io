@@ -116,8 +116,8 @@
 
   .timeline p {
 	font-size: 0.9em;
-	font-weight: 400;
-	color: #333333;
+	font-weight: 300;
+	color: rgb(45, 44, 44);
   }
 
   .timeline .experience-date {
@@ -126,7 +126,7 @@
 	width: 250px;
 	min-width: 250px;
 	font-weight: bold;
-	color: rgba(144, 144, 144, 1.0);
+	color: rgb(85, 85, 85);
   }
 
   .timeline .experience-content {
@@ -157,7 +157,7 @@
 	background-color:#4fa49a;
 	z-index: 99;
   }
-  /*#4361c2, #4fa49a 50%, #9dc66b */
+  
   .experience-content::after {
 	content: "";
 	width: 18px;
@@ -168,6 +168,17 @@
 	background:#4fa49a;
 	margin-left:-39px;
 	z-index: 99;
+  }
+
+  .projectsSection .project-date {
+	font-weight: bold;
+	color: rgb(85, 85, 85);
+  }
+
+  .projectsSection p {
+	font-size: 0.9em;
+	font-weight: 300;
+	color: rgb(45, 44, 44);
   }
 
   @media screen and (max-width: 770px) {

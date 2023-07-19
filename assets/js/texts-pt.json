@@ -1,31 +1,44 @@
 {
     "introHeader": "Olá, me chamo Fernando L. Maioli",
-    "introText": "Sou um Engenheiro de Software graduado na PUCRS, ao longo dos anos trabalhei em vários projetos, principalmente na área mobile, sempre gostei de trabalhar em equipe e várias vezes atuei como Scrum Master ou Gerente. Sou muito curioso, gosto de aprender coisas novas e me desafiar, sei falar Português e Inglês.",
+    "introText": "Sou um Engenheiro de Software brasileiro com bacharelado pela PUCRS. Trabalhei em vários projetos ao longo dos anos, principalmente em desenvolvimento mobile. Sempre gostei de trabalhar em equipe e muitas vezes assumi o papel de Scrum Master ou Gerente. Sou bastante curioso, gosto de aprender coisas novas e me desafiar. Sou fluente em Português e Inglês.",
     "careerHeader": "Carreira",
-    "experiences": [
+    "careerExperiences": [
         {
             "date": "Maio 2019 - Presente",
             "name": "Graphi",
             "link": "https://www.instagram.com/graphi_app/",
-            "description": "O Graphi é uma startup que teve início dentro do Apple Developer Academy, buscando criar uma ferramenta para pediatras utilizarem em suas consultas, o aplicativo apresenta cálculos e gráficos de forma ágil e lúdica, facilitando o trabalho com os pacientes. Após o término do programa Apple, continuamos a desenvolver o projeto na Bay Bridge como parte do TECNOPUC Startups. Durante os períodos de desenvolvimento sempre atuei como desenvolvedor iOS e Scrum Master, utilizando tecnologias como Swift, SwiftUI, Firebase Analytics, TestFlight e Fastlane."
+            "description": "O Graphi é uma startup que teve início dentro do Apple Developer Academy, buscando criar uma ferramenta para pediatras utilizarem em suas consultas. O aplicativo realiza os cálculos necessários e apresenta gráficos visualmente intuitivos, facilitando o trabalho com os pacientes. Após concluir o programa Apple Developer Academy, a startup migrou para o projeto Bay Bridge como parte do TECNOPUC Startups para continuar o desenvolvimento e crescimento. Durante os períodos de desenvolvimento sempre atuei como desenvolvedor iOS e Scrum Master, utilizando tecnologias como Swift, SwiftUI, Firebase Analytics, TestFlight e Fastlane."
         },
         {
             "date": "Fevereiro 2021 - Abril 2022",
             "name": "Nelogica",
             "link": "https://www.nelogica.com.br/",
-            "description": "Trabalhei no time de Desenvolvimento do Vector iOS, uma aplicação para análise, compra e venda de criptomoedas. Aprendi bastante durante o tempo que trabalhei no Vector, pois tive a chance de interagir com diferentes áreas do desenvolvimento, como a manutenção do aplicativo, refatoração de sistemas e desenvolvimento de novas funcionalidades. Dentre as tecnologias utilizadas no desenvolvimento estão Swift, SwiftUI, Firebase Analytics and Jira."
+            "description": "Trabalhei no time de desenvolvimento do Vector iOS, um aplicativo projetado para facilitar a análise e a negociação de criptomoedas. Aprendi muito durante essa experiência, principalmente porque tive a oportunidade de trabalhar em áreas como manutenção de código, refatoração de sistemas e desenvolvimento de novas funcionalidades. Entre as tecnologias utilizadas no desenvolvimento estavam Swift, SwiftUI, Firebase Analytics e Jira."
         },
         {
             "date": "Fevereiro 2019 - Dezembro 2020",
             "name": "Apple Developer Academy",
             "link": "https://developeracademy.eldorado.org.br/poa/",
-            "description": "Participei desta bolsa de estudos fornecida pela Apple, PUCRS e Instituto Eldorado. O programa incentiva seus participantes a criarem aplicativos e soluções através das plataformas Apple, utilizando várias metodologias de Design, UX e métodos ágeis. Dentro do período da bolsa desenvolvi e publiquei alguns aplicativos, como o Graphi e o MindLand."
+            "description": "Tive o privilégio de participar desta bolsa de estudos criada em conjunto pela Apple, PUCRS e Instituto Eldorado. O programa tem como objetivo promover o ensino dos participantes, incentivando o desenvolvimento de aplicativos e soluções inovadoras através de tecnologias Apple, em conjunto com metodologias de UX design e processos ágeis. Como parte do programa, desenvolvi várias aplicações, incluindo exemplos notáveis como o Graphi e o Mindland."
         },
         {
             "date": "Outubro 2018 - Fevereiro 2019",
             "name": "LIS - HP",
             "link": "https://www.politecnica.pucrs.br/laboratorios/lis/",
-            "description": "Trabalhei como estagiário na criação de uma Inteligência Artificial capaz de detectar e reconhecer texto em imagens e vídeos. A IA funcionava como uma Deep Neural Network e foi treinada através de Machine Learning, utilizando Python e SKLearn."
+            "description": "Durante este estágio, trabalhei no desenvolvimento de uma Inteligência Artificial capaz de detectar e identificar texto em imagens e vídeos. A IA foi construída utilizando uma Deep Neural Network e treinada por meio de técnicas de Machine Learning, utilizando a linguagem de programação Python e a biblioteca SKLearn."
+        }
+    ],
+    "educationHeader": "Educação",
+    "educationExperiences": [
+        {
+            "date": "Janeiro 2017 - Agosto 2021",
+            "name": "Bacharelado em Engenharia de Software",
+            "description": "Completei o meu Bacharelado em Engenharia de Software na Pontifícia Universidade Católica do Rio Grande do Sul, onde aprendi sobre todos os processos utilizados no desenvolvimento de software. Ao longo da minha trajetória acadêmica, participei de várias atividades extra-curriculares, nas quais pude colocar em prática e reforçar meus aprendizados. Também participei de bolsas de estudo e comecei a estagiar assim que possível, buscando adquirir experiência."
+        },
+        {
+            "date": "Janeiro 2014 - Dezembro 2016",
+            "name": "Ensino médio",
+            "description": "Durante meus anos de ensino médio, estudei no colégio Scalabriniano São José, onde aprendi os fundamentos das áreas de ensino essenciais e fiz as preparações para o ensino superior."
         }
     ],
     "projectsHeader": "Projetos",
@@ -33,7 +46,7 @@
         {
             "name": "MindLand",
             "date": "Outubro 2019 - Novembro 2020",
-            "description": "Como parte do Apple Developer Academy desenvolvemos o aplicativo MindLand, que buscava ensinar à crianças os conceitos básicos do pensamento computacional utilizando conceitos de storytelling e gamification. O produto foi desenvolvido em Swift, no qual tive a função de programador, além de ajudar na ideação de mini-jogos e ser o responsável pela qualidade de implementação do projeto.",
+            "description": "Mindland é um projeto exemplar que ocorreu dentro da Apple Developer Academy, com o objetivo de ensinar os fundamentos do pensamento computacional para crianças usando técnicas de storytelling e gamification. Além de atuar como programador iOS, também auxiliei na criação dos mini-jogos adicionados à solução e fui responsável por garantir a qualidade do código. A linguagem utilizada foi o Swift.",
             "link": "https://apps.apple.com/us/app/mindland/id1484998648",
             "image": "images/Mindland-showcase.png",
             "linkHTML": "<img src='images/download-app-store.png' class='store-button' alt='App Store'>"
@@ -41,7 +54,7 @@
         {
             "name": "Radar do Investidor",
             "date": "Março 2021 - Junho 2021",
-            "description": "O Radar do Investidor foi um projeto realizado como parte do TCC do curso de Engenharia de Software da PUCRS. Idealizado pela Warren, que atuou como stakeholder do projeto, a ideia era criar um site que permitisse aos investidores buscar, estudar e comparar fundos de investimento. O front-end foi desenvolvido em TypeScript com ReactJS e NextJS, enquanto que o back-end funcionou como uma API REST implementada em TypeScript com NodeJS, e o banco de dados foi feito com PostgresSQL. Atuei neste projeto como gerente, além de desenvolvedor full-stack.",
+            "description": "O Radar do Investidor foi um projeto realizado como parte do meu TCC no curso de Engenharia de Software da PUCRS. Idealizado pela Warren, que atuou como stakeholder e owner do projeto, a ideia era criar um website onde investidores pudessem buscar, analisar e comparar fundos de investimento. O front-end foi desenvolvido em TypeScript com ReactJS e NextJS, enquanto o back-end funcionava como uma RESTful API implementada em TypeScript com NodeJS, e o sistema de gerenciamento de banco de dados escolhido foi o PostgresSQL. Meu papel nesse projeto foi o de gerente, além de desenvolvedor full-stack.",
             "link": "https://tools.ages.pucrs.br/radar-do-investidor/radardoinvestidor-wiki/-/wikis/home",
             "image": "images/Radar-Investimento-showscase.png",
             "linkHTML": "Wiki"

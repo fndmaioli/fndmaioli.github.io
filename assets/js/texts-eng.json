@@ -1,31 +1,44 @@
 {
     "introHeader": "Hello, I'm Fernando L. Maioli",
-    "introText": "I'm a Brazilian Software Engineer with a bachelor's degree from PUCRS, I've worked at multiple projects over the years, mainly on mobile, always enjoyed working on a team and often took the role of Scrum Master or Manager. I'm curious, enjoy learning new things and challenging myself, I speak Portuguese and English.",
+    "introText": "I'm a Brazilian Software Engineer holding a bachelor's degree from PUCRS. I've worked at multiple projects over the years, primarily in mobile development. I have always enjoyed working on a team and often took the role of Scrum Master or Manager. I have a strong curiosity and enjoy learning new things while embracing challenges. I'm proficient in both Portuguese and English.",
     "careerHeader": "Career",
-    "experiences": [
+    "careerExperiences": [
         {
             "date": "May 2019 - Present",
             "name": "Graphi",
             "link": "https://www.instagram.com/graphi_app/",
-            "description": "Graphi is a Startup that began inside Apple Developer Academy, with the idea of creating a tool for pediatricians to use in their appointments, the app does all the calculations and presents easy to understand graphics, helping the doctors in their work. After graduating from Apple course, Graphi joined the Bay Bridge project as part of TECNOPUC Startups to continue development. I worked as iOS developer and Scrum Master, using technologies such as Swift, SwiftUI, Firebase Analytics and Fastlane."
+            "description": "Graphi is a Startup that originated within Apple Developer Academy, with the vision to develop a tool for pediatricians to use in their appointments. The application does all the necessary calculations and presents visually intuitive graphics, assisting the medical practitioners in their work. Subsequent to the Apple Developer Academy course, Graphi transitioned to the Bay Bridge project as part of TECNOPUC Startups to continue its development and growth. During development cycles, I assumed roles of iOS developer and Scrum Master, employing technologies such as Swift, SwiftUI, Firebase Analytics and Fastlane."
         },
         {
             "date": "February 2021 - April 2022",
             "name": "Nelogica",
             "link": "https://www.nelogica.com.br/",
-            "description": "I worked on the development of Vector iOS, an app for analyzing and trading cryptocurrencies. I learned a lot while on the project as I had the chance to work on code maintenance, refactoring of old systems and development of new features. Among the technologies used on development were Swift, SwiftUI, Firebase Analytics and Jira."
+            "description": "I was involved in the development of Vector iOS, an application designed to facilitate analyzing and trading cryptocurrencies. I learned a lot during this experience, particularly because I had the chance to work on areas such as code maintenance, systems refactoring and development of new features. Among the technologies employed during development were Swift, SwiftUI, Firebase Analytics and Jira."
         },
         {
             "date": "February 2019 - December 2020",
             "name": "Apple Developer Academy",
             "link": "https://developeracademy.eldorado.org.br/poa/",
-            "description": "I was part of this scholarship/internship created by Apple, PUCRS and Instituto Eldorado. The project encourages the participants to develop apps and solutions through Apple technologies, using methodologies of UX Design and agile methods. As part of the program I developed a few apps, such as Graphi and Mindland."
+            "description": "I had the privilege of participating in this scholarship/internship program jointly created by Apple, PUCRS and Instituto Eldorado. The program aims to foster the learning of its participants by encouraging the development of innovative applications and solutions through Apple technologies, while also employing UX design methodologies and agile approaches. Within the program I developed multiple applications, including noteworthy examples Graphi and Mindland."
         },
         {
             "date": "October 2018 - February 2019",
             "name": "LIS - HP",
             "link": "https://www.politecnica.pucrs.br/laboratorios/lis/",
-            "description": "As an intern I worked on the development of an Artificial Intelligence capable of detecting and identifying text in images and videos. The AI was made with a Deep Neural Network and trained through Machine Learning, using Python and SKLearn."
+            "description": "During this internship, I worked on the development of an Artificial Intelligence capable of detecting and identifying text within images and videos. The AI was built utilizing a Deep Neural Network and trained through Machine Learning techniques, using Python programming language and the SKLearn library."
+        }
+    ],
+    "educationHeader": "Education",
+    "educationExperiences": [
+        {
+            "date": "January 2017 - Agust 2021",
+            "name": "Software Engineering bachelor's degree",
+            "description": "I successfully completed my undergraduate studies in Software Engineering at Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS), where I acquired knowledge on all the processes used in software development. Throughout my academic journey, I participated in several extracurricular activities, where I could apply and reinforce my learnings. Additionally,  I sought internships as soon as possible, which allowed me to start accumulating experience."
+        },
+        {
+            "date": "January 2014 - December 2016",
+            "name": "Highschool",
+            "description": "During my high school years I attended the Scalabriniano São José School, where I learned the fundamentals of essential academic disciplines and prepared for college."
         }
     ],
     "projectsHeader": "Projects",
@@ -33,7 +46,7 @@
         {
             "name": "MindLand",
             "date": "October 2019 - November 2020",
-            "description": "A project developed during my time at Apple Developer Academy, Mindland is an app made to teach the fundamentals of computational thinking to children using storytelling and gamification. The development was made in Swift, and I worked as a programmer, helped creating mini-games and was responsible for quality of code.",
+            "description": "Mindland is an exemplary project that happened within Apple Developer Academy, which aimed to teach the fundamentals of computational thinking to children using techniques storytelling and gamification. Aside from programming, I also helped in creating the mini-games added to the solution and was responsible for ensuring quality of code. The programming language used was Swift.",
             "link": "https://apps.apple.com/us/app/mindland/id1484998648",
             "image": "images/Mindland-showcase.png",
             "linkHTML": "<img src='images/download-app-store.png' class='store-button' alt='App Store'>"
@@ -41,7 +54,7 @@
         {
             "name": "Radar do Investidor",
             "date": "March 2021 - June 2021",
-            "description": "Radar do Investidor (Investor Radar) is a project that I worked on as part of the Final paper from my bachelor's degree at PUCRS. The idea was to create a website were investors could search, study and compare investment funds, the owner of the project was the investment company Warren. The front-end was developed in TypeScript with ReactJS and NextJS, the back-end worked as a API REST developed in TypeScript with NodeJS and the database used was PostgresSQL. In worked in this project as manager and full-stack developer.",
+            "description": "Radar do Investidor (Investor Radar) was a significant component of my final paper during my undergraduate studies at PUCRS. The project was owned by the investment and technology company Warren, the idea was to create a website were investors could search, analyze and compare investment funds. The front-end was developed in TypeScript with ReactJS and NextJS, while the back-end functioned as a RESTful API developed using TypeScript with NodeJS, and the chosen database management system was PostgresSQL. My role in this was that of full-stack developer alongside managerial responsibilities.",
             "link": "https://tools.ages.pucrs.br/radar-do-investidor/radardoinvestidor-wiki/-/wikis/home",
             "image": "images/Radar-Investimento-showscase.png",
             "linkHTML": "Wiki"
