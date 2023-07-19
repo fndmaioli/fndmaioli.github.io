@@ -40,6 +40,7 @@ function loadTexts(language) {
 	fetch(`./assets/js/texts-${language}.json`)
 		.then((response) => response.json())
 		.then((data) => {
+			document.getElementById("page-title").textContent = data.pageTitle
 			document.getElementById("hello-header").textContent = data.introHeader
 			document.getElementById("intro-text").textContent = data.introText
 
